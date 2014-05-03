@@ -123,83 +123,48 @@
             <div class="container">
                 <a href="" title=""> Home </a>
                 <span class="arrow"> </span>
-                <a href="jobs.html" title=""> 人才招聘 </a>
+                <a href="jobs.html" title=""> 联系我们 </a>
             </div> 
         </div>
     </div> <!-- **Breadcrumb - End** -->
-    <div id="main">
-        <div class="container">
-            <div class="content content-full-width">
-                <h1 class="with-subtitle">招聘崗位</h1>
-                <div class="hr"> </div>
-                <div class="clear"> </div>
-                <div class="column">
-                   <h2>區域總監助理</h2>
-                   <h6 class="subtitle">職位描述:協助公司地區總監進行正常主營業務梳理,對總監關鍵事務時間表規劃負責,突發事件的應急處理,協助內部協調,承擔短時期總監對其授權的管理職能,需要的其他事務.</h6>
-                   <p>
-                       <h4>崗位要求:</h4>
-                       <ol>
-                        <li>全日制大學本科以上或同等學歷,商務英語專業八級,或同等資歷.或英文實際應用能力佳.有一定的口譯水準,精通商務口譯者優先考慮.</li>
-                        <li>文字駕馭能力出色,條理性強,一定規劃整理意識與能力</li> 
-                        <li> 電腦辦公軟體熟練,EXCEL表格操作精通,擁有電腦二級證書以上者優先考慮.</li> 
-                        <li> 做事效率高,執行力極強.</li> 
-                        <li> 思維縝密,作風嚴謹.主動調節能力強,態度良好.有主動創造性分析解決問題的意識和能力.</li> 
-                        <li> 有一定組織人際敏感性,協調能力強.有團隊合作精神.</li> 
-                        <li>  樂觀通達,對自身要求高.有高品質追求和事業理想.</li>   
-                        </ol>
-                   </p>
-               </div>
-               <div class="clear"> </div>
-               <div class="column">
-                   <h2>國際採購</h2>
-                   <p>
-                       <h4>職位說明:</h4>
-                       <ol>
-                        <li>負責所分配的採購工作（電子元件的詢價和購買）</li>
-                        <li>對銷售團隊的支持（包括技術/市場/諮詢等方面,敏銳的市場方向感）</li> 
-                        <li> 對訂單處理過程中的成本和風險的掌控</li> 
-                        <li> 供應商評估及關係維護</li> 
-                        <li> 開拓和發展有價值的新資源</li> 
-                     
-                        </ol>
-                   </p>
-                   <p>
-                       <h4>崗位要求:</h4>
-                       <ol>
-                        <li>本科學位且1年或以上相關行業經驗或培訓經歷</li>
-                        <li>能在面對壓力的同時高效的處理和組織工作</li> 
-                        <li> 做事效率高,執行力極強.</li> 
-                        <li> 良好的溝通技巧</li> 
-                        <li> 歡迎德才兼備的優秀人才</li> 
-                        </ol>
-                   </p>
-               </div>
-               <div class="clear"> </div>
-               <div class="column">
-                   <h2>銷售代表</h2>
-                   
-                   <p>
-                       <h4>崗位要求:</h4>
-                       <ol>
-                        <li>本科或本科以上學歷</li>
-                        <li>具有對OEM及EMS兩年以上電子元器件銷售經驗者優先考慮/li> 
-                        <li> 具備流利的英文讀寫能力</li> 
-                        <li> 做事效率高,執行力極強.</li> 
-                        <li> 具備高超的談判技巧和積極向上的性格</li> 
-                        <li> 在明確的目標任務下能適應快節奏的高效工作</li> 
-                        <li>  工作刻苦，能承受巨大壓力</li>   
-                        </ol>
-                   </p>
-               </div>
-               <div class="clear"></div>
-               <p>
-                 <span style="color:red">待遇</span>：對以上销售和采购 两个職務我們提供豐厚的報酬制度，包括底薪和佣金（不封頂）
-               </p>
-                 <p> 如果你想加入我們，請發中、英文簡歷至：<a href="mailto:hr@shield-china.com">hr@shield-china.com </a>
 
-               </p>
-            </div>
+    <div id="main">
+      <div class="container">
+        <div class="content content-full-width">
+          <h1 class="with-subtitle"> 联系我们 </h1>
+          <div class="column one-half">
+                <div class="ajax_message"></div>
+                <form class="sendmail" action="php/sendmail.php" method="get">
+                  <p>
+                        <label> 您的公司<span class="required"> * </span> </label>
+                        <input name="name" type="text" />
+                    </p>
+                    <p>
+                        <label> 您的姓名<span class="required"> * </span> </label>
+                        <input name="name" type="text" />
+                    </p>
+                    <p>
+                        <label> 您的郵箱 <span class="required"> * </span> </label>
+                        <input name="email" type="text" />
+                    </p>
+                    <p>
+                        <label> 您的电话 <span class="required"> * </span> </label>
+                        <input name="email" type="text" />
+                    </p>
+                    <p>
+                        <label> 標題 </label>
+                        <input name="subject" type="text" />
+                    </p>
+                    <p>
+                        <label> 內容</label>
+                        <textarea name="message" cols="" rows=""></textarea>
+                    </p>
+                    <p><input name="submit" type="submit" value="提交留言" class="button medium lightblue" /></p>
+            </form>
+            <div class="error-container" style="display:none;"> Please fill the above required fields! </div>
         </div>
+        </div>
+      </div>
     </div>
 
     <!-- **Footer Copyright** -->
